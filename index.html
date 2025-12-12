@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testo in colonne</title>
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+    <!-- HEADER -->
+     <div class="container-fluid header align-items-center d-flex">
+        <div class="row">
+            <div class="col-6 col-lg-6 align-items-center justify-content-start d-flex">
+              <a href="#"><img class="logo" src="img/logo_CM_bianco.svg" alt="Logo Clara Mng"></a>
+            </div>
+            
+            <div class="col-6 col-lg-6 justify-content-end d-flex">
+              <button class="btn btn-menu d-block">Menu</button>
+            </div>
+        </div>
+      
+     
+     <!-- tendina del menu che si apre al click -->
+
+      <div class="nav-wrapper">
+            <button class="btn btn-close mb-3">Close</button> 
+                <ul class="nav-list">
+                      <li class="nav-item">
+                          <a href="#about" class="nav-link selected"> <strong>about</strong></a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#projects" class="nav-link"><strong>projects</strong></a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#contacts" class="nav-link"> <strong>contacts</strong></a>
+                      </li>
+                </ul> 
+        </div>
+</div> 
+
+<!-- INTRO HERO -->
+<div class="hero-container">
+        
+        <!-- Sezione superiore con nome e descrizione -->
+        <div class="container-fluid">
+            <div class="row top-section">
+                
+                <div class="col-10 col-lg-6 offset-1 ">
+                    <h1 class="nome">Clara Mongason</h1>
+                </div>
+                
+                <div class="col-10 col-lg-4 offset-1 ">
+                    <p class="descrizione">
+                        Studentessa presso<br>
+                        UNIRSM Design
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+         <!-- Sezione centrale con il testo grande "Welcome to my portfolio!" -->
+        <div class="container-fluid">
+            <div class="row">
+                
+                <!-- Il testo occupa circa le colonne 1-10 del grid (10 colonne su 12)
+                     Con offset-lg-1 parte dalla colonna 2 su schermi grandi -->
+                <div class="col-10 offset-1 col-lg-11 offset-lg-1">
+                    <h2 class="welcome-text">
+                        Welcome<br>
+                        to my portfolio!
+                    </h2>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+<!-- ABOUT ME -->
+<div class="container-fluid d-flex about-section " id="about">
+    <div class="row d-flex align-items-center immsfondo" > 
+            
+        
+        <div class="col-10 offset-1 col-lg-4  align-items-center d-flex">
+                <p class="about">
+                <span class="intro">Who is Clara?</span> <br><br>
+                <span class="about-titolo">About me!</span> <br><br>Cresciuta immersa nell’arte di Firenze, dopo il liceo finisco a studiare Design nella Repubblica di San Marino. 
+                <br><br>Tra design del prodotto, della comunicazione e degli interni, continuo a crescere e esplorare ambienti stimolanti e creativi, 
+                affiancata da persone con i miei stessi interessi che mi spingono ogni giorno a fare del mio meglio!
+            </p>
+
+        </div>
+        
+
+        <!-- <div class="col-12 col-lg-6 offset-1">
+            <img class="img-fluid" src="img/hero_clamng.jpg" alt="clara">
+        </div> -->
+
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    
+    <!-- MY JOURNEY Riga 1 -->
+    <div class="row my-lg-5 mx-lg-5 my-journey-row1">
+         
+         <div class="col-12 offset-lg-1 col-lg-6 justify-content-start order-2 order-lg-1 m-0">
+             <img class="img-fluid" src="img/piccola_cla.png" alt="clara da piccola">
+        </div>
+            
+        <div class="col-10 offset-1 col-lg-4 wrapper offset-1 justify-content-center align-items-center d-flex order-1 order-lg-2">
+                <p class="journey">
+                    <span class="journey-titolo"> My journey in Design </span> <br><br>Da bambina che si divertiva a disegnare,
+                    a ragazza che sperimenta nel campo del Design.</p>
+        </div>
+    </div>
+
+    <!-- MY JOURNEY Riga 2 -->
+    <div class="row my-lg-5 my-lg-5 mx-lg-5 my-journey-row2">
+        
+        <div class="col-10 col-lg-4 wrapper offset-1 justify-content-center align-items-center d-flex">
+        <p class="biografia">Da sempre sognatrice, la creatività ha sempre fatto parte della mia persona. <br> <br>
+            Mi diplomo nel 2024 al Liceo Artistico di Porta Romana a Firenze, specializzandomi nell’indirizzo di Graphic Design. 
+            Da qua nasce la mia passione per la comunicazione in tutte le sue forme.</p>
+        </div>
+            
+        <div class="col-12 col-lg-6 offset-lg-1 justify-content-end d-flex"> 
+        <img class="img-fluid" src="img/diploma_cla.png" alt="clara diplomata">
+        </div>
+    </div>
+
+    <!-- CITAZIONE -->
+    <!-- <div class="row citazione">
+        <div class="col-12 col-lg-8 offset-lg-2 d-flex align-items-center justify-content-center wrapper">
+            <p class="citazione my-5"><span class="primariga">Meden agan / Ne quid nimis</span>
+                <br><br><span class="secondariga"> Nulla di troppo </span>
+                <br><br> <span class="terzariga"> La bellezza sinonimo di verità e bontà, la virtù di saper valicare confini e la
+                    capacità di rispettare i limiti.</span></p>
+        </div>
+        </div> -->
+
+
+    <!-- INTRO PORTFOLIO  -->
+    <div class="row head-portfolio pb-3" id="projects">
+            <div class="offset-1 col-10 col-lg-4 d-flex align-items-center">
+            <!-- immagine di sfondo si inserisce nel css -->
+                <h1 class="intro-portfolio"> Projects <br> 
+            <span class="sottotitolo-portfolio">Graphic Design / Product Design</span></h1>
+                
+            </div>
+    </div>
+
+<!-- SEZIONE PORTFOLIO -->
+
+    <!-- PROGETTO 1 -->
+    <div class="row portfolio-section section-1 pt-5 pb-3">
+        <div class="col-8 col-lg-8 offset-1 d-flex ">
+        
+            <h2 class="titolo-progetto">Minimal Prince <br><span class="sottotitolo-progetto">Liceo Artistico di Porta Romana, Firenze / 2024</span></h2>
+            
+        </div>
+        <div class="col-lg-1 col-2 offset-lg-1 d-flex align-items-lg-center justify-content-end">    
+            <img src="img/arrow-bianco.svg" class="arrow" data-target="progetto1"> 
+        </div>
+
+        <!-- Contenuto a tendina progetto 1 -->
+        <div class="tendina ml-0" id="progetto1">
+            <div class="row contenuto-progetto pt-5 pb-3">
+                <div class=" col-10 offset-1 col-lg-4 offset-lg-1">
+                    <p class="descrizione-progetto">IMinimal princebvoswhfiwhgiw- usare la grafica come linguaggio visivo per esplorare e reinterpretare il concetto di pace. <br>Durante il workshop ho ideato un poster che rappresenta la "fragilità della pace": l’intento è quello di far capire come la pace, descritta come un palloncino e quindi fragile e vulnerabile, sia il primo bersaglio al quale mirare quando gli esseri umani “giocano a fare i grandi”. </p>
+                </div>
+                <div class="col-10 col-lg-5 offset-1">
+                    <img src="img/progetto1_minimal-prince.JPG" alt="Libro illustrato Minimal Prince" class="img-fluid">
+                </div> 
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- PROGETTO 2 -->
+    <div class="row portfolio-section section-2 pt-5 pb-3">
+            <div class="col-8 col-lg-8 offset-1 d-flex ">
+                <h2 class="titolo-progetto">Identità creative <br><span class="sottotitolo-progetto">Liceo Artistico di Porta Romana, Firenze / 2024</span></h2>      
+            </div>
+            <div class="col-lg-1 col-2 offset-lg-1 d-flex align-items-lg-center justify-content-end">    
+                <img src="img/arrow-bianco.svg" class="arrow" data-target="progetto2"> 
+            </div>
+
+            <!-- Contenuto a tendina progetto 2 -->
+            <div class="tendina ml-0" id="progetto2">
+                <div class="row contenuto-progetto pt-5 pb-3">
+                    <div class="col-10 offset-1 col-lg-4 offset-lg-1">
+                        <p class="descrizione-progetto">IDENTITà CREATIVE- usare la grafica come linguaggio visivo per esplorare e reinterpretare il concetto di pace. <br>Durante il workshop ho ideato un poster che rappresenta la "fragilità della pace": l’intento è quello di far capire come la pace, descritta come un palloncino e quindi fragile e vulnerabile, sia il primo bersaglio al quale mirare quando gli esseri umani “giocano a fare i grandi”. </p>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-4 offset-1">
+                            <img src="img/progetto2_1.png" alt="manifesto associazione Arca (creatività)" class="img-fluid">
+                    </div> 
+                    <div class="col-lg-2 offset-lg-1 col-4 offset-2">
+                            <img src="img/progetto2_2.png" alt="manifesto associazione Arca (fiducia)" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    <!-- PROGETTO 3 -->
+    <div class="row portfolio-section section-3 pt-5 pb-3">
+            <div class="col-8 col-lg-8 offset-1 d-flex ">
+                <h2 class="titolo-progetto">Rappresentazione 2D <br><span class="sottotitolo-progetto">UNIRSM Design, San Marino / 2024</span></h2>        
+            </div>
+            <div class="col-lg-1 col-2 offset-lg-1 d-flex align-items-lg-center justify-content-end">    
+                <img src="img/arrow-bianco.svg" class="arrow" data-target="progetto3"> 
+            </div>
+
+            <!-- Contenuto a tendina progetto 3 -->
+            <div class="tendina ml-0" id="progetto3">
+                    <div class="row contenuto-progetto pt-5 pb-3k">
+                        <div class="col-10 offset-1 col-lg-4 offset-lg-1">
+                            <p class="descrizione-progetto">Stare il concetto di pace. <br>Durante il workshop ho ideato un poster che rappresenta la "fragilità della pace": l’intento è quello di far capire come la pace, descritta come un palloncino e quindi fragile e vulnerabile, sia il primo bersaglio al quale mirare quando gli esseri umani “giocano a fare i grandi”. </p>
+                        </div>
+                        <div class="col-10 col-lg-5 offset-1">
+                            <img src="img/progetto3_render.png" alt="render vettoriale bollitore K-Line" class="img-fluid">
+                        </div> 
+                    </div>
+            </div>
+    </div>  
+
+    <!-- PROGETTO 4 -->
+    <div class="row portfolio-section section-4 pt-5 pb-3">
+            <div class="col-8 col-lg-8 offset-1 d-flex ">
+                    <h2 class="titolo-progetto">Workshop / Ergonomia illustrata<br><span class="sottotitolo-progetto">UNIRSM Design, San Marino / 2024</span></h2>
+            </div>
+            <div class="col-lg-1 col-2 offset-lg-1 d-flex align-items-lg-center justify-content-end">    
+                <img src="img/arrow-bianco.svg" class="arrow" data-target="progetto4"> 
+            </div>
+
+            <!-- Contenuto a tendina progetto 4 -->
+            <div class="tendina ml-0" id="progetto4">
+                    <div class="row contenuto-progetto pt-5 pb-3k">
+                        <div class="col-10 offset-1 col-lg-4 offset-lg-1">
+                            <p class="descrizione-progetto">Stare il concetto di pace. <br>Durante il workshop ho ideato un poster che rappresenta la "fragilità della pace": l’intento è quello di far capire come la pace, descritta come un palloncino e quindi fragile e vulnerabile, sia il primo bersaglio al quale mirare quando gli esseri umani “giocano a fare i grandi”. </p>
+                        </div>
+                        <div class="col-10 col-lg-5 offset-1">
+                            <img src="img/progetto4_ergonomia.png" alt="leporello la carbonara perfetta" class="img-fluid">
+                        </div> 
+                    </div>
+            </div>
+        </div>
+
+    <!-- PROGETTO 5 -->
+    <div class="row portfolio-section section-5 pt-5 pb-3">
+            <div class="col-8 col-lg-8 offset-1 d-flex ">
+                    <h2 class="titolo-progetto">Workshop / Reinhard Plank <br><span class="sottotitolo-progetto">Liceo Artistico di Porta Romana, Firenze / 2024</span></h2>
+            </div>
+            <div class="col-lg-1 col-2 offset-lg-1 d-flex align-items-lg-center justify-content-end">    
+                <img src="img/arrow-bianco.svg" class="arrow" data-target="progetto5"> 
+            </div>
+
+            <!-- Contenuto a tendina progetto 5 -->
+            <div class="tendina ml-0" id="progetto5">
+                <div class="row contenuto-progetto pt-5 pb-3">
+                        <div class="col-10 offset-1 col-lg-4 offset-lg-1">
+                            <p class="descrizione-progetto">IDENTITà CREATIVE- usare la grafica come linguaggio visivo per esplorare e reinterpretare il concetto di pace. <br>Durante il workshop ho ideato un poster che rappresenta la "fragilità della pace": l’intento è quello di far capire come la pace, descritta come un palloncino e quindi fragile e vulnerabile, sia il primo bersaglio al quale mirare quando gli esseri umani “giocano a fare i grandi”. </p>
+                        </div>
+                        <div class="col-lg-2 offset-lg-1 col-4 offset-1">
+                            <img src="img/progetto5_reinhard1.JPG" alt="Cappello a fiore" class="img-fluid">
+                        </div> 
+                        <div class="col-lg-2 offset-lg-1 col-4 offset-2">
+                            <img src="img/progetto5_reinhard2.JPG" alt="Cappello a fiore, dettaglio del bottone" class="img-fluid">
+                        </div>
+                </div>
+           </div>
+    </div>
+            
+</div><!-- /container-fluid  -->
+
+
+<!-- FOOTER  -->
+<div class="container-fluid" id="contacts">
+    <div class="row footer">
+        <div class="col-10  col-lg-6 footer-sinistra">
+            <img src="img/logo_CM_bianco.svg" alt="Logo Clara Mng" class="logo-footer">
+            <p class="footer-text">Designed and Developed by Clara Mongason<br>© 2025</p>
+        </div>
+
+        <div class="col-10 col-lg-6 footer-destra">
+            <p class="footer-link">e-mail <br> 
+                <a href="https://www.instagram.com/clamng_archive/" target="_blank">instagram</a> <br> 
+                <a href="https://www.linkedin.com" target="_blank">linkedin</a></p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- INIZIO JAVASCRIPT    -->
+
+
+<script>
+      // Seleziona gli elementi
+        const btnMenu = document.querySelector('.btn-menu');
+        const btnClose = document.querySelector('.btn-close');
+        const mobileNavWrapper = document.querySelector('.nav-wrapper');
+
+    // Apre il menu quando si clicca sul bottone menu
+        btnMenu.addEventListener('click', function() {
+        mobileNavWrapper.classList.add('show');
+        });
+
+    // Chiude il menu quando si clicca sul bottone close
+        btnClose.addEventListener('click', function() {
+        mobileNavWrapper.classList.remove('show');
+        });
+
+    // Chiude il menu quando si clicca su un link
+        const mobileLinks = document.querySelectorAll('.nav-wrapper .nav-link');
+        mobileLinks.forEach(link => {
+        link.addEventListener('click', function() {
+        mobileNavWrapper.classList.remove('show');
+    });
+});
+   
+ // MENU A TENDINA PROGETTI
+        const arrows = document.querySelectorAll('.arrow');
+
+        arrows.forEach(arrow => {
+          arrow.addEventListener('click', function() {
+          const targetId = this.getAttribute('data-target');
+          const content = document.getElementById(targetId);
+        
+    // Toggle del contenuto
+      content.classList.toggle('show');
+        
+    // Ruota la freccia
+      this.classList.toggle('open');
+
+      // cambia colore row in #6184d8
+      const portfolioSection = this.closest('.portfolio-section');
+      if (content.classList.contains('show')) {
+        portfolioSection.style.backgroundColor = '#6184d8';
+      } else {
+        portfolioSection.style.backgroundColor = '';
+      }
+          });
+    });
+</script>
+
+
+</body>
+</html>

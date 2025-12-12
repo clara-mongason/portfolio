@@ -276,6 +276,10 @@ html{
         background-position: center;
         /* background-color: rgba(0,0,0,35); ho provato a fare il rettangolo in trasparenza sopra l'immagine ma non sono riuscita aiutooooooooooo */
     }
+
+    .immsfondo-mobile{
+        display: none;
+    }
     .intro {
     font-family: "Inter", sans-serif;
     font-size: 120px;
@@ -600,6 +604,10 @@ html{
      /* SISTEMARE IMMAGINE  */
      .immsfondo{
         display: none;        
+        }
+        .immsfondo-mobile{
+            display: block;
+            
         }
 
             

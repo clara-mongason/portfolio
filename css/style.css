@@ -564,7 +564,6 @@ html{
 /* SEZIONE HERO/INTRO      */
             .hero-container {
                 margin-top: 15vh; /* Spazio aggiuntivo sopra */
-                height: 50vh; /* Altezza ridotta per schermi piccoli */
                 min-height: 50vh; /* Altezza ridotta per schermi piccoli */
             }
 

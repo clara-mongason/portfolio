@@ -208,7 +208,6 @@ html{
         /* Container principale che occupa tutta la pagina */
         .hero-container {
             width: 100%; /* Larghezza 100% dello schermo */
-            height: 90vh;
             min-height: 90vh;
             margin-top:10vh; /* Altezza 100% della viewport (intera schermata) */
              

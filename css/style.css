@@ -576,8 +576,8 @@ html{
                 margin-top: 2vh; 
             }
             .welcome-text{
-                font-size: 70px; 
-                line-height: 70px;
+                font-size: 10vh; 
+                line-height: 10vh;
                 margin-top: 10vh;
             }
 
@@ -648,7 +648,8 @@ html{
             }
             .sottotitolo-progetto {
                 font-size: 14px;
-                line-height: 8px;
+                line-height: 20px;
+                display: block;
                 }
             .descrizione-progetto {
                 font-size: 16px;

@@ -120,14 +120,13 @@ html{
 }
 
 .nav-wrapper .nav-link{
-    font-size: 24px;
+    font-size: 40px;
     padding: 8px 0;
-    font-size: 24px;
     font-style: normal;
     font-family: "Inter", sans-serif;
     
     font-weight: 400;
-    line-height: 22px; /* 122.222% */  
+    line-height: 40px;  
 }
 
 .nav-wrapper .nav-link.selected{ /*non inserisco lo spazio tra nav link e selected perchè così è una proprietà unica - tutti gli elementi all'interno di nav link che sono selezionati*/
@@ -685,6 +684,7 @@ html{
             }
             .nav-wrapper .nav-list{
                 padding-top: 0;
+                
             }
             .nav-link{
                 

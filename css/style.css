@@ -606,6 +606,7 @@ html{
         }
         .immsfondo-mobile{
             display: block;
+            padding-top: 3vh;
             
         }
 
